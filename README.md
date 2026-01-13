@@ -1,6 +1,3 @@
-# odin-repository-template
-Create a repository template for future projects
+# odin-test-practice
 
-The repository template is created after the instructions of The Odin Project - Webpack lecture. 
-Available at the following link:
-https://www.theodinproject.com/lessons/javascript-webpack
+This is the test-driven development (TDD), lesson project of The Odin Project (TOP).
