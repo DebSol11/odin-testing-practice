@@ -1,8 +1,7 @@
 function ceasarCipher(str, shiftFactor) {
-  // str = str.toLowerCase();
   let result = [];
   let charCode = 0;
-  let regExPattern = /[a-z]/i; // i = case-insensitive flag
+  let regExPattern = /[a-z]/i; // i = case-insensitive flag for the regular expression
 
   for (i = 0; i < str.length; i++) {
     if (regExPattern.test(str[i]) === false) {
@@ -20,7 +19,5 @@ function ceasarCipher(str, shiftFactor) {
   result = result.join("");
   return result;
 }
-// string = "K"
-// console.log(string.charCodeAt());
 
 module.exports = ceasarCipher;

@@ -8,8 +8,4 @@ const calculator = (function () {
   return { add, sub, mul, div };
 })();
 
-// calculator.add(3,5); // 8
-// calculator.sub(6,2); // 4
-// calculator.mul(14,5534); // 77476
-
 module.exports = calculator;
