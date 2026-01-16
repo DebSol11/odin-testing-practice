@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1768419574049" clover="3.2.0">
-  <project timestamp="1768419574049" name="All files">
-    <metrics statements="24" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="10" elements="35" coveredelements="27" complexity="0" loc="24" ncloc="24" packages="1" files="7" classes="7"/>
+<coverage generated="1768564837772" clover="3.2.0">
+  <project timestamp="1768564837773" name="All files">
+    <metrics statements="32" coveredstatements="32" conditionals="4" coveredconditionals="4" methods="11" coveredmethods="11" elements="47" coveredelements="47" complexity="0" loc="32" ncloc="32" packages="1" files="7" classes="7"/>
     <file name="calculator.js" path="/home/michael/OdinProjectRepos/odin-testing-practice/js/calculator.js">
       <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
       <line num="2" count="1" type="stmt"/>
@@ -18,14 +18,22 @@
       <line num="5" count="1" type="stmt"/>
     </file>
     <file name="ceasarCipher.js" path="/home/michael/OdinProjectRepos/odin-testing-practice/js/ceasarCipher.js">
-      <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <line num="2" count="0" type="stmt"/>
-      <line num="3" count="0" type="stmt"/>
-      <line num="4" count="0" type="stmt"/>
-      <line num="6" count="0" type="stmt"/>
-      <line num="7" count="0" type="stmt"/>
-      <line num="8" count="0" type="stmt"/>
-      <line num="10" count="0" type="stmt"/>
+      <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="3" count="4" type="stmt"/>
+      <line num="4" count="4" type="stmt"/>
+      <line num="5" count="4" type="stmt"/>
+      <line num="7" count="4" type="stmt"/>
+      <line num="8" count="24" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="3" type="stmt"/>
+      <line num="11" count="21" type="stmt"/>
+      <line num="12" count="21" type="stmt"/>
+      <line num="13" count="21" type="cond" truecount="2" falsecount="0"/>
+      <line num="14" count="3" type="stmt"/>
+      <line num="15" count="3" type="stmt"/>
+      <line num="17" count="21" type="stmt"/>
+      <line num="20" count="4" type="stmt"/>
+      <line num="21" count="4" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
     </file>
     <file name="cloneArray.js" path="/home/michael/OdinProjectRepos/odin-testing-practice/js/cloneArray.js">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
