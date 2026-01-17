@@ -9,26 +9,26 @@ function calculateAverage(arr) {
 }
 
 function returnMin(arr) {
-    let minValue = Math.min(...arr);
-    return minValue;
+  let minValue = Math.min(...arr);
+  return minValue;
 }
 
 function returnMax(arr) {
-    let maxValue = Math.max(...arr);
-    return maxValue;
+  let maxValue = Math.max(...arr);
+  return maxValue;
 }
 
 function returnLength(arr) {
-    let lengthArr = arr.length;
-    return lengthArr;
+  let lengthArr = arr.length;
+  return lengthArr;
 }
 
 function analyzeArray(arr) {
-    const average = calculateAverage(arr);
-    const min = returnMin(arr);
-    const max = returnMax(arr);
-    const length = returnLength(arr);
-    return {average, min, max, length};
+  const average = calculateAverage(arr);
+  const min = returnMin(arr);
+  const max = returnMax(arr);
+  const length = returnLength(arr);
+  return { average, min, max, length };
 }
 
 module.exports = analyzeArray;
